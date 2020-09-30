@@ -1,0 +1,65 @@
+/*baitap1*/
+.mainimg{
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    background-color: white;  
+}
+.anhchinh{
+    width: 800px;
+    height: 400px;
+    background-color: gray;
+
+}
+.subimg{
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    background-color: white;
+    
+}
+.khungduoi{
+    flex: 1;
+    background-color: white;
+
+}
+.anhphu{
+    width: 380px;
+    height: 150px;
+    background-color: gray;
+}
+p,h1{ 
+    color: black;
+    Text-align: left;
+}
+p{
+    
+    font-size: 20px;
+    
+}
+h1{
+    font-size: 40px;
+   
+}
+.sign{
+    color: gray;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+/*baitap2*/
+div{
+    background-color: red;
+    border: 1px white double;
+    color: white;
+    height: 90px;
+    font-size: 30px;
+   }
+.parent{
+    background-color:white;
+    display: flex;
+    flex-flow: wrap;
+    clear: left;
+}
+
