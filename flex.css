@@ -1,5 +1,5 @@
 /*baitap1*/
-.main-img{
+.main-img {
     width: 1200px;
     height: 400px;
     display: flex;
@@ -8,17 +8,17 @@
     justify-content: space-between;
     margin: 0px 0px 30px 0px;
 }
-.anhchinh{
+.anhchinh {
     width: 800px;
     height: 400px;
     background-color: gray;
 
 }
-.khungtrucchinh{
+.khungtrucchinh {
     width: 300px;
     height: 400px;
 }
-.sub-img{
+.sub-img {
     width: 1200px;
     height: 800px;
     display: flex;
@@ -26,51 +26,51 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.khunganh-me{
+.khunganh-me {
     width: 800px;
     height: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.khunganh{
+.khunganh {
     width: 350px;
     height: 200px;
     background-color: white;
 }
-.anhphu{
+.anhphu {
     width: 350px;
     height: 200px;
     background-color: gray;
 }
-p,h1{ 
+p,h1 { 
     color: black;
     Text-align: left;
 }
-p{
+p {
     
     font-size: 20px;
     
 }
-h1{
+h1 {
     font-size: 40px;
    
 }
-.sign{
+.sign {
     color: gray;
     font-size: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
 /*baitap2*/
-.parent div{
+.parent div {
     background-color: red;
     border: 1px white double;
     color: white;
     height: 90px;
     font-size: 30px;
    }
-.parent{
-    background-color:white;
+.parent {
+    background-color: white;
     display: flex;
     flex-flow: wrap;
     clear: left;
