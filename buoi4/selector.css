@@ -23,3 +23,6 @@ a:last-child {
 a:nth-child(even) {
     color: saddlebrown;
 }
+a {
+    color: red;
+}
