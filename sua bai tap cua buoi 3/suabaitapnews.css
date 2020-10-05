@@ -7,3 +7,9 @@
 .hot.news {
     border: 1px solid red;
 }
+.hot-news h1 {
+    color: red;
+}
+.news>h1 {
+    color: green;
+}
