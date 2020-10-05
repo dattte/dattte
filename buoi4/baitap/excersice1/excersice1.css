@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: gray;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.heading {
+  width: auto;
+  text-align: center;
+}
+p {
+  padding: 15px 0px;
+}
+h1 {
+  font-size: 50px;
+  padding: 20px 0px;
+  color: rgb(198, 201, 195);
+}
+ul {
+  height: 46px;
+  list-style-type: none;
+  background-color: orangered;
+  }
+li > a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  float: left;
+}
+li:hover:not(.active) {
+  background-color: #111;
+}  
+.active {
+  background-color: black;
+}
