@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #edf7f9;
+}
+.avatar {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    background-color:  #b1dbe7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.avatar .read {
+    width: 800px;
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    line-height: 580px;
+    display: none;
+    position: absolute;
+    font-weight: lighter;
+}
+.avatar:hover .read {
+    display: block;
+    background-color: #425255;
+}
+.avatar:hover .image img {
+    opacity: 75%;
+}
+.avatar .image {
+    width: 300px;
+    height: 580px;
+    margin: 0 auto;
+    position: relative;
+}
+.avatar .image img {
+    width: 300px;
+    height: 450px;
+    margin: 50px 0;
+}
+.avatar .icon {
+    background-color: white;
+}
+.avatar .icon i {
+    font-size: 65px;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+.avatar .icon .circle {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 110px;
+    margin-top: -60px;
+    position: absolute;
+}
+.avatar .icon .triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 40px solid #b1dbe7;
+    margin: 0 auto;
+    background-color: white;    
+}
+.avatar .nickname {
+    width: 800px;
+    line-height: 180px;
+    background-color: white;
+    text-align: center;
+    font-size: 50px;
+
+}
+
