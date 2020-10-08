@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    background: orangered;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu.left,
+.menu.right {
+    display: flex;
+    height: 40px;
+}
+.menu.left {
+    width: 400px;
+    background: red;
+}
+.menu.left > div {
+    align-items: center;
+}
+.menu.right {
+    width: 200px;
+    background: green;
+}

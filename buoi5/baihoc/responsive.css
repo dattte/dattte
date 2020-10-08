@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    background: orangered;
+    width: 600px;
+    margin: 0 auto;
+}
+menu > ul {
+    display: inline-block;
+}
+ul {
+    width: 400px;
+}
+.menu > a {
+    width: 200px;
+}
+a {
+    display: inline-block;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: right;
+    color: white;
+    padding: 0px 32px;
+    box-sizing: border-box;
+}
+ul li {
+    list-style: none;
+}
+a:hover,
+.active {
+    background-color: black;
+}
