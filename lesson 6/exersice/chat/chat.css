@@ -43,6 +43,7 @@
     height: 50px;
     border-radius: 50px;
     border: 4px solid #696c73;
+    object-fit: cover;
 }
 .chat-frame .chat-list .human-name {
     display: inline-block;
@@ -92,6 +93,7 @@
     height: 50px;
     border-radius: 50px;
     border: 4px solid green;
+    object-fit: cover;
 }
 .chat-frame .chat-box .box-name .human-name {
     display: inline-block;

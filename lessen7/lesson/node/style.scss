@@ -1,0 +1,28 @@
+$color-red: purple;
+$color-blue: blue;
+$total-column: 12;
+@for $i from 1 to $total-column {
+    .col-#{$i} {
+        width: (($i/$total-column)*100%);
+        background-color: red;
+        border: 1px solid black;
+    }
+}
+
+.parent {
+    .child {
+        &.red {
+            color: $color-red;
+        }
+        color: $color-blue;
+    }
+
+    .col {
+        &--1 {
+            color: green;
+        }
+        &--hidden {
+            display: none;
+        }
+    }
+}

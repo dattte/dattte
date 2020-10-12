@@ -1,0 +1,8 @@
+.row {
+    width: 800px;
+    margin: 0 auto;
+}
+[class^="col-"] {
+    border: 1px solid black;
+    height: 100px;
+}
