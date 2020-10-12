@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.chat-frame {
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    margin: 0 auto;
+}
+.search {
+}
+
+/* justify-content: flex-end; dung cho khung chat */
