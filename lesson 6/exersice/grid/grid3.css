@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+.container {
+    height: 1920px;
+    background-color:black;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-areas:
+        'item1 item2 item3 item3 item3 item4 item6'
+        'item5 item5 item3 item3 item3 item7 item8'
+        'item5 item5 item3 item3 item3 item9 item11'
+        'item10 item10 item3 item3 item3 item12 item14'
+        'item10 item10 item13 item13 item15 item16 item18'
+        'item19 item20 item13 item13 item17 item17 item17'
+        'item21 item21 item22 item23 item17 item17 item17'
+        'item21 item21 item24 item25 item17 item17 item17'
+        'item26 item26 item26 item27 item17 item17 item17'
+        'item26 item26 item26 item28 item29 item30 item31'
+        'item26 item26 item26 item32 item33 item34 item35'
+        'item26 item26 item26 item36 item37 item38 item39'
+        'item40 item40 item40 item41 item42 item43 item44'
+        'item40 item40 item40 item45 item45 item45 item46'
+        'item40 item40 item40 item45 item45 item45 item47'
+        'item40 item40 item40 item45 item45 item45 item48'
+        'item49 item50 . item45 item45 item45 .'
+}
+.box {
+    text-align: left;
+    font-size: 10px;
+    color: white;
+    background-color: #424242;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-1 {
+    grid-area: item1;
+}
+.box-2 {
+    grid-area: item2;
+}
+.box-3 {
+    grid-area: item3;
+}
+.box-4 {
+    grid-area: item4;
+}
+.box-5 {
+    grid-area: item5;
+}
+.box-6 {
+    grid-area: item6;
+}
+.box-7 {
+    grid-area: item7;
+}
+.box-8 {
+    grid-area: item8;
+}
+.box-9 {
+    grid-area: item9;
+}
+.box-10 {
+    grid-area: item10;
+}
+.box-11 {
+    grid-area: item11;
+}
+.box-12 {
+    grid-area: item12;
+}
+.box-13 {
+    grid-area: item13;
+}
+.box-14 {
+    grid-area: item14;
+}
+.box-15 {
+    grid-area: item15;
+}
+.box-16 {
+    grid-area: item16;
+}
+.box-17 {
+    grid-area: item17;
+}
+.box-18 {
+    grid-area: item18;
+}
+.box-19 {
+    grid-area: item19;
+}
+.box-20 {
+    grid-area: item20;
+}
+.box-21 {
+    grid-area: item21;
+}
+.box-22 {
+    grid-area: item22;
+}
+.box-23 {
+    grid-area: item23;
+}
+.box-24 {
+    grid-area: item24;
+}
+.box-25 {
+    grid-area: item25;
+}
+.box-26 {
+    grid-area: item26;
+}
+.box-27 {
+    grid-area: item27;
+}
+.box-28 {
+    grid-area: item28;
+}
+.box-29 {
+    grid-area: item29;
+}
+.box-30 {
+    grid-area: item30;
+}
+.box-31 {
+    grid-area: item31;
+}
+.box-32 {
+    grid-area: item32;
+}
+.box-33 {
+    grid-area: item33;
+}
+.box-34 {
+    grid-area: item34;
+}
+.box-35 {
+    grid-area: item35;
+}
+.box-36 {
+    grid-area: item36;
+}
+.box-37 {
+    grid-area: item37;
+}
+.box-38 {
+    grid-area: item38;
+}
+.box-39 {
+    grid-area: item39;
+}
+.box-40 {
+    grid-area: item40;
+}
+.box-41 {
+    grid-area: item41;
+}
+.box-42 {
+    grid-area: item42;
+}
+.box-43 {
+    grid-area: item43;
+}
+.box-44 {
+    grid-area: item44;
+}
+.box-45 {
+    grid-area: item45;
+}
+.box-46 {
+    grid-area: item46;
+}
+.box-47 {
+    grid-area: item47;
+}
+.box-48 {
+    grid-area: item48;
+}
+.box-49 {
+    grid-area: item49;
+}
+.box-50 {
+    grid-area: item50;
+}
