@@ -1,10 +1,7 @@
 // Exercise 1
 // Viết 1 hàm trả về 1 array, nhận vào 2 tham số, tham số thứ 1 là ký tự cần lặp, tham số thứ 2 là số lần lặp
-
 // vd: đầu vào ('ahihi', 3)
-
 // Thì Kết quả là:
-
 // ['ahihi', 'ahihi', 'ahihi']
 // Yêu cầu, viết ít nhất 2 cách khác nhau
 // Method 1:
