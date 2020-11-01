@@ -68,3 +68,4 @@ const arr8 = ['b', 'e', 'c']
 intersection(arr1, arr2) // [2]
 intersection(arr3, arr4, arr5) // ['b']
 intersection(arr6, arr7, arr8) // ['b', 'e'] */
+
